@@ -1,3 +1,7 @@
+<div align="center">
+<img align="center" width="30%" alt="image" src="https://github.com/AI4Finance-Foundation/FinGPT/assets/31713746/e0371951-1ce1-488e-aa25-0992dafcc139">
+</div>
+
 # FinRL: Financial Reinforcement Learning [![twitter][1.1]][1] [![facebook][1.2]][2] [![google+][1.3]][3] [![linkedin][1.4]][4]
 
 [1.1]: http://www.tensorlet.org/wp-content/uploads/2021/01/button_twitter_22x22.png
@@ -23,6 +27,9 @@
 ![License](https://img.shields.io/github/license/AI4Finance-Foundation/finrl.svg?color=brightgreen)
 
 [FinGPT](https://github.com/AI4Finance-Foundation/ChatGPT-for-FinTech): Open-source for open-finance! Revolutionize FinTech.
+
+Check out our latest competition: [ACM ICAIF 2023 FinRL Contest](https://finrl-contest.github.io/)
+
 
 [![](https://dcbadge.vercel.app/api/server/trsr8SXpW5)](https://discord.gg/trsr8SXpW5)
 
@@ -200,8 +207,9 @@ A complete list at [blogs](https://github.com/AI4Finance-Foundation/Blogs)
 
 ## Publications
 
-|Title |Conference |Link|Citations|Year|
+|Title |Conference/Journal |Link|Citations|Year|
 |  ----  |  ----  |  ----  |  ----  |  ----  |
+|Dynamic Datasets and Market Environments for Financial Reinforcement Learning| Machine Learning - Nature| [paper](https://arxiv.org/abs/2304.13174) [code](https://github.com/AI4Finance-Foundation/FinRL-Meta) | 1 | 2024 |
 |**FinRL-Meta**: FinRL-Meta: Market Environments and Benchmarks for Data-Driven Financial Reinforcement Learning| NeurIPS 2022| [paper](https://arxiv.org/abs/2211.03107) [code](https://github.com/AI4Finance-Foundation/FinRL-Meta) | 12 | 2022 |
 |**FinRL**: Deep reinforcement learning framework to automate trading in quantitative finance| ACM International Conference on AI in Finance (ICAIF) | [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3955949) | 49 | 2021 |
 |**FinRL**: A deep reinforcement learning library for automated stock trading in quantitative finance| NeurIPS 2020 Deep RL Workshop  | [paper](https://arxiv.org/abs/2011.09607) | 87 | 2020 |
@@ -226,8 +234,18 @@ A complete list at [blogs](https://github.com/AI4Finance-Foundation/Blogs)
 + [知乎] [基于深度强化学习的金融交易策略（FinRL+Stable baselines3，以道琼斯30股票为例）](https://zhuanlan.zhihu.com/p/563238735)
 + [知乎] [动态数据驱动的金融强化学习](https://zhuanlan.zhihu.com/p/616799055)
 + [知乎] [FinRL的W&B化+超参数搜索和模型优化(基于Stable Baselines 3）](https://zhuanlan.zhihu.com/p/498115373)
-+ 
++
 ## Citing FinRL
+
+```
+@article{dynamic_datasets,
+    author = {Liu, Xiao-Yang and Xia, Ziyi and Yang, Hongyang and Gao, Jiechao and Zha, Daochen and Zhu, Ming and Wang, Christina Dan and Wang, Zhaoran and Guo, Jian},
+    title = {Dynamic Datasets and Market Environments for Financial Reinforcement Learning},
+    journal = {Machine Learning - Springer Nature},
+    year = {2024}
+}
+```
+
 
 ```
 @article{liu2022finrl_meta,
@@ -273,20 +291,6 @@ We published [FinRL papers](http://tensorlet.org/projects/ai-in-finance/) that a
 
 Welcome to **AI4Finance** community!
 
-Discuss FinRL via [AI4Finance mailing list](https://groups.google.com/u/1/g/ai4finance) and AI4Finance Slack channel:
-
-
-<a href="https://join.slack.com/t/ai4financeworkspace/shared_invite/zt-v670l1jm-dzTgIT9fHZIjjrqprrY0kg" target="\_blank">
-	<div align="center">
-		<img src=figs/join_slack.png width="35%"/>
-	</div>
-</a>
-<b>Follow us on WeChat:</b>
-	<div align="center">
-		<img src=http://www.tensorlet.org/wp-content/uploads/2021/01/qrcode_for_gh_feece88824ab_258.jpg width="25%" />
-	</div>
-</b>
-
 Please check [Contributing Guidances](https://github.com/AI4Finance-Foundation/FinRL-Tutorials/blob/master/Contributing.md).
 
 ### Contributors
@@ -296,19 +300,6 @@ Thank you!
 <a href="https://github.com/AI4Finance-LLC/FinRL-Library/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=AI4Finance-LLC/FinRL-Library" />
 </a>
-
-### Sponsorship
-
-Welcome gift money to support AI4Finance, a non-profit community.
-
-Network: USDT-TRC20
-
-<a target="\_blank">
-	<div align="center">
-		<img src=figs/okx.jpeg width="35%"/>
-	</div>
-</a>
-
 
 
 ## LICENSE
